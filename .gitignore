@@ -1,0 +1,36 @@
+# Папки и файлы, созданные Node.js
+node_modules/
+npm-debug.log*
+
+# Файлы, созданные IDE
+.vscode/
+*.code-workspace
+
+# Логи и системные файлы
+*.log
+*.lock
+.DS_Store
+.env.local
+.env.*.local
+
+# Сборка и артефакты
+/dist/
+/build/
+
+# Тестовые отчеты
+/coverage/
+
+# Файлы, созданные операционной системой
+Thumbs.db
+Desktop.ini
+
+# Зависимости и кэш
+.pnp/
+.pnp.js
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Другие временные файлы
+*.tmp
+*.swp

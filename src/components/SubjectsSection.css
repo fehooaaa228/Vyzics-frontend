@@ -1,0 +1,17 @@
+/* src/components/SubjectsSection.css */
+.subjects-section {
+  padding: 2rem;
+}
+
+.subjects-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}

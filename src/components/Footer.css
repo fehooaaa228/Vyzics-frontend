@@ -1,0 +1,26 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  bottom: 0; /* Позиционируем его внизу */
+  width: 100%; /* Занимает всю ширину экрана */
+}
+
+.footer-content {
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+}
+
+.for_mula {
+  font-size: 1.2em;
+  color: #007bff; 
+  margin: 0;
+  padding: 0;
+}

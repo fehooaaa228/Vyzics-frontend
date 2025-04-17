@@ -1,0 +1,29 @@
+/* src/components/Review.css */
+.review {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-icon {
+  width: 40px;
+  height: 40px;
+  fill: #ccc;
+}
+
+.review-content {
+  flex: 1;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.author {
+  font-size: 0.9rem;
+  color: #666;
+}

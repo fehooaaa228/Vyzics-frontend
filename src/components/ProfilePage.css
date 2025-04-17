@@ -1,0 +1,94 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%; 
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Обертка для всей страницы */
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+/* Обертка для основного контента */
+.app-container {
+  flex: 1; /* Растягиваем контент на всю доступную высоту */
+  padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.admin-only {
+  color: green;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+/* Main section styles */
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.avatar-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.avatar-section img{
+  width: 120px;
+  height: 120px;
+}
+
+.profile-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Button styles */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

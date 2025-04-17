@@ -1,0 +1,70 @@
+/* src/components/CustomCarousel.css */
+.custom-carousel {
+  position: relative;
+  background-color: #222;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  height: 300px;
+}
+
+.slides-container {
+  width: 100%;
+  overflow: hidden;
+  height: 270px;
+}
+
+.slide {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  height: 90px;
+}
+
+.slide.active {
+  opacity: 1;
+  pointer-events: auto;
+  height: 90px;
+}
+
+.slide h3 {
+  font-size: 1.5rem;
+}
+
+.slide p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Стили для внешних стрелок */
+.external-arrow-left,
+.external-arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+}
+
+.external-arrow-left {
+  left: -70px; 
+}
+
+.external-arrow-right {
+  right: -70px; 
+}
+
+.external-arrow-left:hover,
+.external-arrow-right:hover {
+  opacity: 0.7;
+  background: none;
+}

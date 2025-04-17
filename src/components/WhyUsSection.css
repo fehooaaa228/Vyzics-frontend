@@ -1,0 +1,31 @@
+.why-us-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #222;
+  color: #fff;
+  height: 250px;
+}
+
+.why-us-section .content {
+  max-width: 50%;
+}
+
+.why-us-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.why-us-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.graphic-element {
+  position: relative;
+  width: 200px;
+  height: 240px;
+}
+
